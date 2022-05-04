@@ -20,8 +20,8 @@ if(isset($_POST['user_email']))
     $lastlogin = date('Y-m-d H:i:s');
     $pass = md5($user_pass);
 
-    $sql = "INSERT INTO tbl_users (`user_email`, `user_joindate`, `user_lastlogin`, `user_name`, `user_pass`, `user_type`)
-    VALUES ('$user_email', '$joindate', '$lastlogin', 'Administrator', '$pass', 'admin')";
+    $sql = "INSERT INTO tbl_users (`user_email`, `user_joindate`, `user_lastlogin`, `user_name`, `user_pass`, `user_type`, `user_branch`)
+    VALUES ('$user_email', '$joindate', '$lastlogin', 'Administrator', '$pass', 'admin', 1)";
 
 
     if ($conn->query($sql) === TRUE) {

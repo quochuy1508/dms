@@ -479,8 +479,8 @@ CREATE TABLE `tbl_tenants` (
   `ten_deposite_amnt` float(10,2) NOT NULL,
   `ten_rent` float(10,2) NOT NULL,
   `ten_comments` text NOT NULL,
-  `ten_add_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `ten_lastlogin` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `ten_add_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `ten_lastlogin` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `ten_isactive` varchar(10) NOT NULL,
   `ten_pass_changed` varchar(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -596,7 +596,7 @@ CREATE TABLE `tbl_users` (
   `id` int(11) NOT NULL,
   `user_email` varchar(155) NOT NULL,
   `user_joindate` date NOT NULL,
-  `user_lastlogin` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `user_lastlogin` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `user_name` varchar(155) NOT NULL,
   `user_pass` varchar(155) NOT NULL,
   `user_type` varchar(50) NOT NULL,

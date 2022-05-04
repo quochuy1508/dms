@@ -16,7 +16,7 @@ if(file_exists("spymvc/config/database.php.lock"))
 		</script>';
 }
 
-	define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'development');
 
 /*
  *---------------------------------------------------------------

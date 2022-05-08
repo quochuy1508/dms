@@ -10,7 +10,7 @@
 <body>
 
 <div class="jumbotron text-center">
-  <h1>Calgary HMS - Setup</h1>
+  <h1>Group 11 - Setup</h1>
 </div>
 <div class="container">
   <div class="row">

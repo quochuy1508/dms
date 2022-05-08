@@ -123,7 +123,7 @@
     <a href="<?php echo $burl; ?>admin/dashboard" class="brand-link">
     <img src="<?php echo base_url(); ?>assets/backend/dist/img/dhpms_logo.png" alt="DHPMS Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Calgary HMS</span>
+      <span class="brand-text font-weight-light">Group 11</span>
     </a>
     <div class="sidebar">
       <!-- sidebar menu: : style can be found in sidebar.less -->
@@ -249,51 +249,51 @@
               <ul class="nav nav-treeview">
                 <li class="nav-item"><a href="<?php echo $burl; ?>admin/branches" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['branches']; ?></p></a></li>
                 <li class="nav-item"><a href="<?php echo $burl; ?>admin/expensecat" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['expense'].' '.$lang['categories']; ?></p></a></li>
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/complaintcat" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['complaint'].' '.$lang['categories']; ?></p></a></li>
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/emailtpl" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['email'].' '.$lang['templates']; ?></p></a></li>
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/complaintcat" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['complaint'].' '.$lang['categories']; ?><!--</p></a></li>-->
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/emailtpl" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['email'].' '.$lang['templates']; ?><!--</p></a></li>-->
               </ul>
           </li>
 
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link <?php if($cpage == 'website') echo"active"; ?>">
-              <i class="nav-icon far fa-window-maximize"></i><p><?php echo $lang['managewebsite']; ?><i class="right fas fa-angle-left"></i></p></a>
-
-              <ul class="nav nav-treeview">
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/webpages" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['website'].' '.$lang['pages']; ?></p></a></li>
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/blog" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['blog']; ?></p></a></li>
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/gallery" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['gallery']; ?></p></a></li>
-                <li class="nav-item"><a href="<?php echo $burl; ?>admin/filemanager" class="nav-link"><i class="far fa-circle nav-icon"></i> <p><?php echo $lang['filemanager']; ?></p></a></li>
-              </ul>
-          </li>
+<!--          <li class="nav-item has-treeview">-->
+<!--            <a href="#" class="nav-link --><?php //if($cpage == 'website') echo"active"; ?><!--">-->
+<!--              <i class="nav-icon far fa-window-maximize"></i><p>--><?php //echo $lang['managewebsite']; ?><!--<i class="right fas fa-angle-left"></i></p></a>-->
+<!---->
+<!--              <ul class="nav nav-treeview">-->
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/webpages" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['website'].' '.$lang['pages']; ?><!--</p></a></li>-->
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/blog" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['blog']; ?><!--</p></a></li>-->
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/gallery" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['gallery']; ?><!--</p></a></li>-->
+<!--                <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/filemanager" class="nav-link"><i class="far fa-circle nav-icon"></i> <p>--><?php //echo $lang['filemanager']; ?><!--</p></a></li>-->
+<!--              </ul>-->
+<!--          </li>-->
           
-          <li class="nav-item"><a href="<?php echo $burl; ?>admin/events" class="nav-link <?php if($cpage == 'events') echo"active"; ?>">
-            <i class="nav-icon far fa-calendar-alt"></i><p><?php echo $lang['events']; ?></p></a>
-          </li>
+<!--          <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/events" class="nav-link --><?php //if($cpage == 'events') echo"active"; ?><!--">-->
+<!--            <i class="nav-icon far fa-calendar-alt"></i><p>--><?php //echo $lang['events']; ?><!--</p></a>-->
+<!--          </li>-->
 
           <li class="nav-item"><a href="<?php echo $burl; ?>admin/users" class="nav-link <?php if($cpage == 'users') echo"active"; ?>">
             <i class="nav-icon fas fa-user"></i><p><?php echo $lang['users']; ?></p></a>
           </li>
 
           
-          <li class="nav-item"><a href="<?php echo $burl; ?>admin/configurations" class="nav-link <?php if($cpage == 'configurations') echo"active"; ?>">
-            <i class="nav-icon fas fa-cogs"></i><p><?php echo $lang['configurations']; ?></p></a>
-          </li>
+<!--          <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/configurations" class="nav-link --><?php //if($cpage == 'configurations') echo"active"; ?><!--">-->
+<!--            <i class="nav-icon fas fa-cogs"></i><p>--><?php //echo $lang['configurations']; ?><!--</p></a>-->
+<!--          </li>-->
           <?php } ?>
 		
         <?php } ?>
 
-        <li class="nav-item"><a href="<?php echo $burl; ?>admin/complaints" class="nav-link <?php if($cpage == 'complaints') echo"active"; ?>">
-            <i class="nav-icon fas fa-ticket-alt"></i><p><?php echo $lang['complaints']; ?></p></a>
-        </li>
+<!--        <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/complaints" class="nav-link --><?php //if($cpage == 'complaints') echo"active"; ?><!--">-->
+<!--            <i class="nav-icon fas fa-ticket-alt"></i><p>--><?php //echo $lang['complaints']; ?><!--</p></a>-->
+<!--        </li>-->
 
         <?php if(isset($userdata) && $userdata['user_type'] != 'member') { ?>
-        <li class="nav-item"><a href="https://spykra.com/docs/dhpms/" target="_blank" class="nav-link">
-            <i class="nav-icon fas fa-book"></i><p><?php echo $lang['documentation']; ?></p></a>
-        </li>
+<!--        <li class="nav-item"><a href="https://spykra.com/docs/dhpms/" target="_blank" class="nav-link">-->
+<!--            <i class="nav-icon fas fa-book"></i><p>--><?php //echo $lang['documentation']; ?><!--</p></a>-->
+<!--        </li>-->
 
-        <li class="nav-item"><a href="<?php echo $burl; ?>admin/about" class="nav-link <?php if($cpage == 'aboutus') echo"active"; ?>">
-            <i class="nav-icon fas fa-info-circle"></i><p><?php echo $lang['aboutus']; ?></p></a>
-        </li>
+<!--        <li class="nav-item"><a href="--><?php //echo $burl; ?><!--admin/about" class="nav-link --><?php //if($cpage == 'aboutus') echo"active"; ?><!--">-->
+<!--            <i class="nav-icon fas fa-info-circle"></i><p>--><?php //echo $lang['aboutus']; ?><!--</p></a>-->
+<!--        </li>-->
         <?php } ?>
 
       </ul>

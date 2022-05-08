@@ -219,7 +219,7 @@ class Users extends CI_Controller {
 		// till here
 		$sitename = WEBAPP_NAME;
 		$copyrights = WEBAPP_COPYRIGHTS;
-		$data['title'] = ucfirst("user dashbaord - $sitename");
+		$data['title'] = ucfirst("user dashboard - $sitename");
 		$data['name'] = $name;
 		$data['username'] = $username;
 		$data['email'] = $email;

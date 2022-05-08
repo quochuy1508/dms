@@ -184,34 +184,34 @@
           <input type="hidden" name="ten_branch" value="<?php echo $branchid; ?>">
         <?php } ?>
 
-        <hr/>
-				<h4><?php echo $lang['tax'].' '.$lang['details']; ?>:</h4>
-        <hr/>
-        
-        <div class="form-group row">
-          <label for="ten_tax_company_name" class="col-sm-1 col-form-label"><?php echo $lang['company_name']; ?></label>
-
-          <div class="col-sm-5">
-            <input type="text" class="form-control" id="ten_tax_company_name" name="ten_tax_company_name" placeholder="<?php echo $lang['company_name']; ?>" value="<?php echo ($tenuid == 0) ? set_value('ten_tax_company_name') : $tendata['ten_tax_company_name']; ?>">
-            <?php echo form_error('ten_tax_company_name', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
-          </div>
-
-				  <label for="ten_tax_company_email" class="col-sm-1 col-form-label"><?php echo $lang['company_email']; ?></label>
-
-          <div class="col-sm-5">
-            <input type="text" class="form-control" id="ten_tax_company_email" name="ten_tax_company_email" placeholder="<?php echo $lang['company_email']; ?>" value="<?php echo ($tenuid == 0) ? set_value('ten_tax_company_email') : $tendata['ten_tax_company_email']; ?>">
-            <?php echo form_error('ten_tax_company_email', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label for="ten_tax_number" class="col-sm-1 col-form-label"><?php echo $lang['company_taxno']; ?></label>
-
-          <div class="col-sm-5">
-            <input type="text" class="form-control" id="ten_tax_number" name="ten_tax_number" placeholder="<?php echo $lang['company_taxno']; ?>" value="<?php echo ($tenuid == 0) ? set_value('ten_tax_number') : $tendata['ten_tax_number']; ?>">
-            <?php echo form_error('ten_tax_number', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
-          </div>
-        </div>
+<!--        <hr/>-->
+<!--				<h4>--><?php //echo $lang['tax'].' '.$lang['details']; ?><!--:</h4>-->
+<!--        <hr/>-->
+<!--        -->
+<!--        <div class="form-group row">-->
+<!--          <label for="ten_tax_company_name" class="col-sm-1 col-form-label">--><?php //echo $lang['company_name']; ?><!--</label>-->
+<!---->
+<!--          <div class="col-sm-5">-->
+<!--            <input type="text" class="form-control" id="ten_tax_company_name" name="ten_tax_company_name" placeholder="--><?php //echo $lang['company_name']; ?><!--" value="--><?php //echo ($tenuid == 0) ? set_value('ten_tax_company_name') : $tendata['ten_tax_company_name']; ?><!--">-->
+<!--            --><?php //echo form_error('ten_tax_company_name', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
+<!--          </div>-->
+<!---->
+<!--				  <label for="ten_tax_company_email" class="col-sm-1 col-form-label">--><?php //echo $lang['company_email']; ?><!--</label>-->
+<!---->
+<!--          <div class="col-sm-5">-->
+<!--            <input type="text" class="form-control" id="ten_tax_company_email" name="ten_tax_company_email" placeholder="--><?php //echo $lang['company_email']; ?><!--" value="--><?php //echo ($tenuid == 0) ? set_value('ten_tax_company_email') : $tendata['ten_tax_company_email']; ?><!--">-->
+<!--            --><?php //echo form_error('ten_tax_company_email', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
+<!--          </div>-->
+<!--        </div>-->
+<!---->
+<!--        <div class="form-group row">-->
+<!--          <label for="ten_tax_number" class="col-sm-1 col-form-label">--><?php //echo $lang['company_taxno']; ?><!--</label>-->
+<!---->
+<!--          <div class="col-sm-5">-->
+<!--            <input type="text" class="form-control" id="ten_tax_number" name="ten_tax_number" placeholder="--><?php //echo $lang['company_taxno']; ?><!--" value="--><?php //echo ($tenuid == 0) ? set_value('ten_tax_number') : $tendata['ten_tax_number']; ?><!--">-->
+<!--            --><?php //echo form_error('ten_tax_number', '<div class="alert alert-danger alert-dismissible alertsm">', '</div>'); ?>
+<!--          </div>-->
+<!--        </div>-->
 
 
 				<hr/>
